@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E60AF6E1A39D9F500D57DAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E60AF6D1A39D9F500D57DAC /* main.cpp */; };
+		8E60AF771A39DA2A00D57DAC /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E60AF751A39DA2A00D57DAC /* GLUT.framework */; };
+		8E60AF791A39DDFC00D57DAC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E60AF781A39DDFC00D57DAC /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E60AF681A39D9F500D57DAC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8E60AF6A1A39D9F500D57DAC /* KochCurveTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KochCurveTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E60AF6D1A39D9F500D57DAC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8E60AF741A39DA2A00D57DAC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		8E60AF751A39DA2A00D57DAC /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		8E60AF781A39DDFC00D57DAC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E60AF671A39D9F500D57DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E60AF791A39DDFC00D57DAC /* OpenGL.framework in Frameworks */,
+				8E60AF771A39DA2A00D57DAC /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E60AF611A39D9F500D57DAC = {
+			isa = PBXGroup;
+			children = (
+				8E60AF781A39DDFC00D57DAC /* OpenGL.framework */,
+				8E60AF741A39DA2A00D57DAC /* GLKit.framework */,
+				8E60AF751A39DA2A00D57DAC /* GLUT.framework */,
+				8E60AF6C1A39D9F500D57DAC /* KochCurveTest */,
+				8E60AF6B1A39D9F500D57DAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E60AF6B1A39D9F500D57DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E60AF6A1A39D9F500D57DAC /* KochCurveTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E60AF6C1A39D9F500D57DAC /* KochCurveTest */ = {
+			isa = PBXGroup;
+			children = (
+				8E60AF6D1A39D9F500D57DAC /* main.cpp */,
+			);
+			path = KochCurveTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E60AF691A39D9F500D57DAC /* KochCurveTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E60AF711A39D9F500D57DAC /* Build configuration list for PBXNativeTarget "KochCurveTest" */;
+			buildPhases = (
+				8E60AF661A39D9F500D57DAC /* Sources */,
+				8E60AF671A39D9F500D57DAC /* Frameworks */,
+				8E60AF681A39D9F500D57DAC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KochCurveTest;
+			productName = KochCurveTest;
+			productReference = 8E60AF6A1A39D9F500D57DAC /* KochCurveTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E60AF621A39D9F500D57DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "山崎 慎太郎";
+				TargetAttributes = {
+					8E60AF691A39D9F500D57DAC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 8E60AF651A39D9F500D57DAC /* Build configuration list for PBXProject "KochCurveTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E60AF611A39D9F500D57DAC;
+			productRefGroup = 8E60AF6B1A39D9F500D57DAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E60AF691A39D9F500D57DAC /* KochCurveTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E60AF661A39D9F500D57DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E60AF6E1A39D9F500D57DAC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E60AF6F1A39D9F500D57DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8E60AF701A39D9F500D57DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8E60AF721A39D9F500D57DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E60AF731A39D9F500D57DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E60AF651A39D9F500D57DAC /* Build configuration list for PBXProject "KochCurveTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E60AF6F1A39D9F500D57DAC /* Debug */,
+				8E60AF701A39D9F500D57DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E60AF711A39D9F500D57DAC /* Build configuration list for PBXNativeTarget "KochCurveTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E60AF721A39D9F500D57DAC /* Debug */,
+				8E60AF731A39D9F500D57DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E60AF621A39D9F500D57DAC /* Project object */;
+}
